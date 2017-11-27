@@ -432,7 +432,7 @@ footer{
 
 h1{
     margin: 0;
-    padding:0;
+    padding-top: 0;
 }
 
 // News,Company
@@ -551,6 +551,7 @@ h1{
     // #main
     
     #sidebar{
+        padding-bottom: 20px;
         
         .pc_sidemenu {
             
@@ -586,12 +587,6 @@ h1{
         }
         // .pc_sidemenu
         
-        .fb-page{
-            
-            @media (max-width: 550px){
-                padding-bottom: 20px;
-            }
-        }
     }
     // #sidebar
 }
